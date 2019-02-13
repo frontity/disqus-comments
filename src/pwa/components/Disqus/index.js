@@ -50,8 +50,7 @@ class Disqus extends Component {
     const { id, url, title, shortname } = this.props;
     const { height, loaded } = this.state;
 
-    const iframePath = `${window['wp-pwa'].ssr ||
-      '/'}dynamic/disqus-comments/disqus.html`;
+    const iframePath = `${window['wp-pwa'].ssr || window['wp-pwa'].ssr_server || '/'}dynamic/disqus-comments/disqus.html`;
 
     return (
       <Container height={height}>
