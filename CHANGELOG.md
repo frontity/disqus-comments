@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/frontity/disqus-comments/compare/v1.0.0...v1.0.1) (2019-02-14)
+
+
+### Bug Fixes
+
+* **disqus.html:** make it compatible with new plugin versions ([953dbab](https://github.com/frontity/disqus-comments/commit/953dbab))
+
 # 1.0.0 (2019-02-07)
 
 
